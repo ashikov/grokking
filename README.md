@@ -1,1 +1,3 @@
 # grokking
+
+Examples and exercises
