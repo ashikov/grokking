@@ -25,6 +25,9 @@ jobs:
       - name: Setup project
         run: make install
 
+      - name: Execute tests
+        run: make test
+
       - name: Run linter
         run: make lint
         # Publish code coverage on Code Climate
@@ -37,4 +40,5 @@ jobs:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
           coverageCommand: make test-coverage
+          coverageLocations: ${{github.workplace}}/build/logs/clover.xml:clover
           debug: true
