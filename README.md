@@ -6,6 +6,11 @@
 
 Examples and exercises from Grokking Algorithms
 
+## Requirements
+
+* PHP
+* Composer
+
 ## Using
 
 Setup project
@@ -18,4 +23,10 @@ Run tests
 
 ```bash
 make test
+```
+
+Run linter
+
+```bash
+make lint
 ```
