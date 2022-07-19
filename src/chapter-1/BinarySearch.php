@@ -3,6 +3,7 @@
 namespace Grokking\BinarySearch;
 
 // Function returns index
+// O(log(n))
 function binarySearch(array $haystack, mixed $niddle): mixed
 {
     // Search borders
