@@ -15,7 +15,8 @@
   "autoload": {
     "files": [
       "src/chapter-1/BinarySearch.php",
-      "src/chapter-2/SelectionSort.php"
+      "src/chapter-2/SelectionSort.php",
+      "src/chapter-4/Sum.php"
     ]
   },
   "require": {
