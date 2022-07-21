@@ -4,7 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/7105e8a11afd10d04bc9/maintainability)](https://codeclimate.com/github/ashikov/grokking/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/7105e8a11afd10d04bc9/test_coverage)](https://codeclimate.com/github/ashikov/grokking/test_coverage)
 
-Examples and exercises from Grokking Algorithms
+Examples and exercises from [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
 
 ## Requirements
 
