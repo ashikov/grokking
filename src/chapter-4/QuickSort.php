@@ -2,7 +2,7 @@
 
 namespace Grokking\Chapter4\QuickSort;
 
-function quickSort(array $collection)
+function quickSort(array $collection): array
 {
     $length = count($collection);
     if ($length < 2) {
@@ -13,11 +13,11 @@ function quickSort(array $collection)
     $greater = [];
 
     for ($i = 1; $i < $length; $i += 1) {
-      if ($collection[$i] < $collection[0]) {
-        $less[] = $collection[$i];
-      } else {
-        $greater[] = $collection[$i];
-      }
+        if ($collection[$i] < $collection[0]) {
+            $less[] = $collection[$i];
+        } else {
+            $greater[] = $collection[$i];
+        }
     }
 
     $less = quickSort($less);
