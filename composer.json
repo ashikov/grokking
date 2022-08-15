@@ -18,7 +18,8 @@
       "src/chapter-2/SelectionSort.php",
       "src/chapter-4/Sum.php",
       "src/chapter-4/GetMax.php",
-      "src/chapter-4/QuickSort.php"
+      "src/chapter-4/QuickSort.php",
+      "src/chapter-6/BreadthFirstSearch.php"
     ]
   },
   "require": {
@@ -32,7 +33,8 @@
     "phpstan/extension-installer": "^1.0",
     "symfony/var-dumper": "^6.1",
     "phpunit/phpunit": "^9.5.21",
-    "squizlabs/php_codesniffer": "^3.7.1"
+    "squizlabs/php_codesniffer": "^3.7.1",
+    "sempro/phpunit-pretty-print": "^1.4"
   },
   "config": {
     "allow-plugins": {
